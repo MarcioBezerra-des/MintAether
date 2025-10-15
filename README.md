@@ -51,12 +51,12 @@ A arquitetura planejada segue o modelo de microsserviços/serviços desacoplados
                                  |                            |
           +----------------------+----------------------+-----+
           |                      |                      |
-+---------v---------+  +---------v---------+  +---------v----------+
-|                   |  |                   |  |                    |
-|   Serviço de IA   |  |   Banco de Dados  |  |  Serviço Blockchain|
-| (API Externa)     |  |   (PostgreSQL)    |  |   (Nó/Smart Contract)|
-|                   |  |                   |  |                    |
-+-------------------+  +-------------------+  +--------------------+
++---------v---------+  +---------v---------+  +---------v-----------+
+|                   |  |                   |  |                     |
+|   Serviço de IA   |  |   Banco de Dados  |  |  Serviço Blockchain |
+| (API Externa)     |  |   (PostgreSQL)    |  |  (Nó/Smart Contract)|
+|                   |  |                   |  |                     |
++-------------------+  +-------------------+  +---------------------+
 ```
 
 * **Frontend:** Uma Single-Page Application (SPA) construída em React que consome os dados do backend.
